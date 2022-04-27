@@ -106,7 +106,7 @@ public class exercicio {
 		}
 		System.out.println("Esse estado não existe!");
 		
-		leia.close(); 
+		leia.close();
 		
 		
 		
