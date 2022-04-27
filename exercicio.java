@@ -8,7 +8,7 @@ public class exercicio {
 		Scanner leia = new Scanner(System.in);
 		final var ponto = new Locale("en", "us");
 		
-		/*
+		
 		
 		int numero = 0;
 		
@@ -20,9 +20,9 @@ public class exercicio {
 			System.out.println("Me informe um numero entre 1 e 10: ");
 	        numero = leia.nextInt();
 		}while(numero > 10);
-		System.out.println("Nota valida:" + numero); */
+		System.out.println("Nota valida:" + numero); 
 		
-		/*
+		
 		String senha;
 		String nome;
 		
@@ -37,38 +37,38 @@ public class exercicio {
 		senha = leia.nextLine();
 		
 		}
-		System.out.println("Senha aceita!"); */
+		System.out.println("Senha aceita!"); 
 		
-		/*
-		String nome;
+		
+		String nomes;
 		
 		System.out.println("Qual seu nome ?: ");
-		nome = leia.nextLine();
+		nomes = leia.nextLine();
 	
-		if(nome.length() < 3 ) {
-			System.out.println("Nome digitado foi" + nome);
-		}else if(nome.length() >3 ) {
+		if(nomes.length() < 3 ) {
+			System.out.println("Nome digitado foi" + nomes);
+		}else if(nomes.length() >3 ) {
 		System.out.println("Nome é valido!");
 		} else {
 		System.out.println("Seu nome é invalido!");
 		}
-		*/
 		
-		/*
-		int numero;
+		
+		
+		int numeros;
 		System.out.println("Entre com a sua idade: ");
-		numero = leia.nextInt();
+		numeros = leia.nextInt();
 		
-		if (numero == 0 ) {
-			System.out.println("Sua idade é" + numero);
-		}else if(numero < 150) {
+		if (numeros == 0 ) {
+			System.out.println("Sua idade é" + numeros);
+		}else if(numeros < 150) {
 			System.out.println("A sua idade é valida");
 		} else {
 			System.out.println("Você não é normal");
-		} */
+		} 
 			
 		
-		/*
+		
 		double salario;
 		
 		System.out.println("Qual o seu salário ?: ");
@@ -80,9 +80,9 @@ public class exercicio {
 			System.out.println("Você é um trabalhador");
 		}else {
 			System.out.println("Ai amigo, você trabalha de graça");
-		} */
+		} 
 		
-		/*
+		
 		char sexo;
 		System.out.println("Qual o seu sexo ?: ");
 		sexo = leia.next().charAt(0);
@@ -94,7 +94,7 @@ public class exercicio {
 		}else {
 			System.out.println("A informação dada não é valida");
 		}
-		*/
+		
 		
 		char estado;
 		System.out.println("Qual o seu estado cívil ?: ");
